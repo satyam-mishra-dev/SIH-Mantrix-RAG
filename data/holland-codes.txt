@@ -1,0 +1,221 @@
+The Holland Codes or the Holland Occupational Themes (RIASEC[1]) are a taxonomy of interests[2] based on a theory of careers and vocational choice that was initially developed by American psychologist John L. Holland.[3][4]
+
+The Holland Codes serve as a component of the interests assessment, the Strong Interest Inventory. In addition, the US Department of Labor's Employment and Training Administration has been using an updated and expanded version of the RIASEC model in the "Interests" section of its free online database O*NET (Occupational Information Network)[5] since its inception during the late 1990s.[6][7]
+
+Overview
+Holland's theories of vocational choice, The Holland Occupational Themes, "now pervades career counseling research and practice".[4] Its origins "can be traced to an article in the Journal of Applied Psychology in 1958 and a subsequent article in 1959 that set out his theory of vocational choices. ... The basic premise was that one's occupational preferences were in a sense a veiled expression of underlying character."[8] The 1959 article in particular ("A Theory of Vocational Choice", published in the Journal of Counseling Psychology) is considered the first major introduction of Holland's "theory of vocational personalities and work environments".[4]
+
+Holland originally labeled his six types as "motoric, intellectual, esthetic, supportive, persuasive, and conforming".[4] He later developed and changed them to: "Realistic (Doers), Investigative (Thinkers), Artistic (Creators), Social (Helpers), Enterprising (Persuaders), and Conventional (Organizers)".[9] Holland's six categories show some correlation with each other.[10] It is called the RIASEC model or the hexagonal model because the initial letter of the region is equal to R-I-A-S-E-C when it is expressed as a circle connecting the regions of high correlation. Professor John Johnson of Penn State suggested that an alternative way of categorizing the six types would be through ancient social roles: "hunters (Realistic), shamans (Investigative), artisans (Artistic), healers (Social), leaders (Enterprising), and lorekeepers (Conventional)".[11] Holland offers full definitions of each type in his book, Making Vocational Choices: A Theory of Vocational Personalities and Work Environments (Third Edition) (1997).[12]
+
+According to the Committee on Scientific Awards, Holland's "research shows that personalities seek out and flourish in career environments they fit and that jobs and career environments are classifiable by the personalities that flourish in them".[13] Holland also wrote of his theory that "the choice of a vocation is an expression of personality".[14]: 6  Furthermore, while Holland suggested that people can be "categorized as one of six types",[14]: 2  he also argued that "a six-category scheme built on the assumption that there are only six kinds of people in the world is unacceptable on the strength of common sense alone. But a six category scheme that allows a simple ordering of a person's resemblance to each of the six models provides the possibility of 720 different personality patterns."[14]: 3 
+
+Related model
+Prediger's two-dimensional model
+Prediger constructed the scale of "work task" and "work relevant abilities" based on Holland's model, and carried out factor analysis and multidimensional scale analysis to clarify the basic structure.[15][16][17] As a result, two axes of Data/Ideas and Things/People were extracted. Although Prediger's inquiry did not start from interest per se, it eventually led to the birth of models other than RIASEC, suggesting that the structure of occupational interest may provide a basic dimension.
+
+Tracey and Rounds's octagonal model
+In the United States, the energetic trial is being made with the aim of the new model which surpasses Holland hexagon model in 1990's. Tracey & Rounds's octagonal model is one such example.[18] Based on the empirical data, they argue that occupational interests can be placed circularly in a two-dimensional plane consisting of People/Things and Data/ldeas axes, and the number of regions can be arbitrarily determined. According to their model, only Holland's hexagonal model does not adequately represent the structure of occupational interest, and it is possible to retain validity as an octagonal or 16 square model if necessary.
+
+Tracey, Watanabe, & Schneider conducted an international comparative study of job interests among Japanese and U.S. university students, and the results suggest that the Tracey & Rounds's octagonal model is more fitted to Japanese students than Holland's hexagonal model.
+
+Tracey and Rounds's spherical model
+Tracey & Rounds criticizes that the conventional models of occupational interest structure do not correctly depict the positional relationship of occupations because they neglect occupational prestige, i.e., "social prestige" or "high socioeconomic status" and proposes a spherical model that assigns occupations to a 3-dimensional space incorporating occupational prestige.[19] In this model, 18 regions of interest are displayed on a spherical space. The left hemisphere has a high status area, with Health Sciences at the top. The right hemisphere has a low status area, with Service Provision as the lowest ground.
+
+Though this model is excellent in the point of more accurately describing the relation between various occupations, it makes the occupation interest structure more complicated, and there is a weak point that it is difficult to be adapted to the data except for the U.S.[1]
+
+List of types
+Holland made a career out of studying the world of work, pioneering the theory that if people were aware of their personality type or combination of types—realistic, investigative, artistic, social, enterprising or conventional—then they would be happier workers.
+
+—Amy Lunday[3]
+R: Realistic (Doers)
+Holland defines the "Realistic Type" as a person who has “a preference for activities that entail the explicit, ordered, or systematic manipulation of objects, tools, machines, and animals…these behavioral tendencies lead in turn to the acquisition of manual, mechanical, agricultural, electrical, and technical competencies.”[20] Sample majors and careers include:
+
+Agriculture[21]
+Architect (with Artistic and Enterprising)[21]
+Athletics[22]
+Carpenter (with Conventional and Investigative)[21]
+Culinary arts/Chef (with Artistic and Enterprising)[23]
+Chemistry/Chemist (with Investigative and Conventional)[21]
+Computer engineering/Computer science/Information technology/Computer programmer (with Investigative and Conventional)[21][22]
+Dentist (with Investigative and Social)[21]
+Engineer (with Investigative and Conventional)[21][22]
+Fashion design (with Artistic and Enterprising)[21]
+Firefighter (with Social and Enterprising)[21]
+Graphic designer (with Artistic and Enterprising)[21]
+Model (people) (with Artistic and Enterprising)[21]
+Musician (with Artistic and Enterprising)[21]
+Nurse (with Social, Conventional, and Investigative)[21][22]
+Outdoor recreation[22]
+Park Naturalist (with Social and Artistic)[21]
+Personal trainer (with Enterprising and Social)[21]
+Photographer (with Artistic and Enterprising)[21]
+Physical therapy (with Social and Investigative)[21]
+Driver[21]
+Sports medicine/Wilderness medicine (with Social and Investigative)[24]
+Surgeon (with Investigative and Social)[21]
+Veterinarian (with Investigative and Social)[21]
+Web developer (with Conventional, Artistic, and Investigative)[21]
+Zoologists and Wildlife Biologists (with Investigative)[21]
+I: Investigative (Thinkers)
+Holland defines the "Investigative Type" as a person who has "a preference for activities that entail the observational, symbolic, systematic and creative investigation of physical, biological, and cultural phenomena (in order to understand and control such phenomena)... these behavioral tendencies lead in turn to an acquisition of scientific and mathematical competencies."[25] Sample majors and careers include:
+
+Actuary (with Conventional and Enterprising)[21][22]
+Archivist/Librarian (with Social and Conventional)[21]
+Biostatistics/Masters in Public Health (with Conventional)[26]
+Carpenter (with Conventional and Realistic)[21]
+CPA (Certified Public Accountant) (with Conventional and Enterprising)[21][22]
+Chemistry/Chemist (with Realistic and Conventional)[21][22]
+Community Health Workers/Masters in Public Health (with Social and Enterprising)[27]
+Computer engineering/Computer science/Information technology/Computer programmer (with Realistic and Conventional)[21][22]
+Counselor (with Social and Artistic)[21][22]
+Dentist (with Realistic and Social)[21]
+Dietitian/Nutritionist (with Social and Enterprising)[21]
+Doctor (Medical school/Medical research) (with Social)[21][22]
+Engineer (with Realistic and Conventional)[21][22]
+Financial analyst (with Conventional and Enterprising)[21]
+Epidemiology/Masters in Public Health (with Social)[28]
+Lawyer (with Enterprising and Social)[21]
+Nurse (with Realistic, Conventional, and Social)[21][22]
+Paralegal (with Conventional and Enterprising)[21]
+Pharmacist (with Social and Conventional),[21]
+Physical therapy (with Social and Realistic)[21]
+Physics[22]
+Poets, Lyricists and Creative Writers (with Artistic)[29]
+Professor/Research – PhD[22]
+Psychology/Psychologist (with Social and Artistic); Art therapist/Dance therapy/Drama therapy/Music therapy/Narrative therapy/Culinary therapy[30][31][21][22]
+Social Work (with Social)[21]
+Speech-language pathology/Myofunctional therapist (With Social and Artistic)[32]
+Sports medicine/Wilderness medicine (with Social and Realistic)[24]
+Surgeon (with Realistic and Social)[21]
+Technical writer, Proofreader, Copy Editor (with Artistic and Conventional)[21][33][34]
+Tutor (with Social)[35]
+Veterinarian (with Realistic and Social)[21]
+Web developer (with Conventional, Realistic, and Artistic)[21]
+Zoologists and Wildlife Biologists (with Realistic)[21]
+A: Artistic (Creators)
+Holland defines the "Artistic Type" as a person who has "a preference for ambiguous, free, unsystematized activities that entail the manipulation of physical, verbal, or human materials to create art forms or products...these behavioral tendencies lead in turn to the acquisition of artistic competencies."[36] Sample majors and careers include:
+
+Architect (with Realistic and Enterprising)[21]
+Broadcast journalism (with Enterprising)[21]
+Culinary arts (with Realistic and Enterprising)[23]
+Entrepreneur (with Social and Enterprising)[21]
+Fashion design (with Realistic and Enterprising)[21]
+Graphic designer (with Enterprising and Realistic)[21]
+Model (people) (with Realistic and Enterprising)[21]
+Musician (with Enterprising and Realistic)[21]
+Park Naturalist (with Social and Realistic)[21]
+Poets, Lyricists and Creative Writers (with Investigative)[29]
+Psychology/Psychologist (with Social and Investigative); Art therapist/Dance therapy/Drama therapy/Music therapy/Narrative therapy/Culinary therapy[30][31][21][22]
+Photographer (with Realistic and Enterprising)[21]
+Speech-language pathology/Myofunctional therapist (With Social and Investigative)[32]
+Technical writer, Proofreader, Copy Editor (with Investigative and Conventional)[21][33][34]
+Trainer (business) (with Social and Conventional)[21]
+Translator (with Social)[21]
+Web developer (with Conventional, Realistic, and Investigative)[21]
+S: Social (Helpers)
+Holland defines the "Social Type" as a person who has "a preference for activities that entail the manipulation of others to inform, train, develop, cure, or enlighten...these behavioral tendencies lead in turn to an acquisition of human relations competencies."[37] Sample majors and careers include:
+
+Archivist/Librarian (with Conventional and Investigative)[21]
+CFP (Certified Financial Planner)/Personal Financial Planner (with Conventional and Enterprising)[38]
+Clergy (with Artistic and Enterprising)[21]
+Community Organizer[22]
+Community Health Workers/Masters in Public Health (with Investigative and Enterprising)[27]
+Counselors (various)/Advisers (with Investigative, Enterprising, Conventional, and Artistic)[21][22]
+Guidance/School Counselors, Academic Advisors, Career Counselors (see also: List of psychotherapies)[39]
+Customer service (with Conventional and Enterprising)[21]
+Dentist (with Investigative and Realistic)[21]
+Dietitian/Nutritionist (with Investigative and Enterprising)[21]
+Doctor (Medical school/Medical research) (with Investigative)[21][22]
+Educational administration (with Enterprising and Conventional)[21]
+Educational consultant (with Conventional and Enterprising)[40]
+Entrepreneur (with Enterprising and Artistic)[21]
+Epidemiology/Masters in Public Health (with Investigative)[28]
+Personal Financial Planner/Certified Financial Planner (with Enterprising and Conventional)[38]
+Firefighter (with Realistic and Enterprising)[21]
+Fitness Trainer and Aerobics Teacher (with Enterprising and Realistic)[21]
+Foreign Service/Diplomacy (with Enterprising and Artistic)[41]
+Human Resources (with Conventional and Enterprising)[21]
+Lawyer (with Investigative and Enterprising)[21]
+Nurse (with Realistic, Conventional, and Investigative)[21][22]
+Park Naturalist (with Realistic and Artistic)[21]
+Pharmacist (with Investigative and Conventional)[21]
+Physical therapy (with Realistic and Investigative)[21]
+Psychology/Psychologist (with Artistic and Investigative); Art therapist/Dance therapy/Drama therapy/Music therapy/Narrative therapy/Culinary therapy[30][31][21][22]
+Social Advocate[22]
+Sociology[22]
+Social Work[21]
+Speech-language pathology/Myofunctional therapist (With Investigative and Artistic)[32]
+Surgeon (with Realistic and Investigative)[21]
+Teacher (Early childhood education, Primary school, Secondary school, Teaching English as a second language, Special education, and Substitute teaching) (with Artistic)[21][22][42]
+Sports medicine/Wilderness medicine (with Investigative and Realistic)[24]
+Trainer (business) (with Artistic and Conventional)[21]
+Translator (with Artistic)[21]
+Tutor (with Investigative)[35]
+Veterinarian (with Investigative and Realistic)[21]
+E: Enterprising (Persuaders)
+Holland defines the "Enterprising Type" as a person who has "a preference for actives that entail the manipulation of others to attain organization goals or economic gain...these behavioral tendencies lead in turn to an acquisition of leadership, interpersonal, and persuasive competences."[43] Sample majors and careers include:
+
+Actuary (with Investigative and Conventional)[21][22]
+Architect (with Artistic and Realistic)[21]
+Business (with Social and Conventional)
+Broker or Agent (i.e. Automobile broker, Real Estate broker etc.)
+Buyer[22]
+CPA (Certified Public Accountant) (with Investigative and Conventional)[21][22]
+CFP (Certified Financial Planner)/Personal Financial Planner (with Social and Conventional)[38]
+Community Health Workers/Masters in Public Health (with Investigative and Social)[27]
+Culinary arts (with Artistic and Realistic)[23]
+Clergy (with Artistic and Social)[21]
+Customer service (with Conventional and Social)[21]
+Dietitian/Nutritionist (with Social and Investigative)[21]
+Educational administration (with Social and Conventional)[21]
+Educational consultant (with Conventional and Social)[40]
+Entrepreneur (with Social and Artistic)[21]
+Fashion design (with Artistic and Realistic)[21]
+Financial analyst (with Investigative and Conventional)[21]
+Foreign Service/Diplomacy (with Social and Artistic)[41]
+Firefighter (with Social and Realistic)[21]
+Fitness Trainer and Aerobics Teacher (with Realistic and Social)[21]
+Fundraising[22]
+Graphic designer (with Artistic and Realistic)[21]
+Human Resources (with Conventional and Social)[21]
+Broadcast journalism (with Artistic)[21]
+Lawyer (with Investigative and Social)[21]
+Management/Management Consultant[22]
+Market Research Analyst (with Investigative)[22]
+Model (people) (with Artistic and Realistic)[21]
+Musician (with Artistic and Realistic)[21]
+Paralegal (with Conventional and Investigative)[21]
+Photographer (with Artistic and Realistic)[21]
+Public Health Educator/Masters in Public Health (with Social)[44]
+Property manager/Community association manager (with Conventional)[45]
+Public relations/Publicity/Advertising/Marketing (with Artistic)[21]
+Sales (with Conventional and Social)[21]
+C: Conventional (Organizers)
+Holland defines the "Conventional Type" as a person who has "a preference for actives that entail the explicit, ordered, systematic manipulation of data (keeping records, filing materials, reproducing materials, organizing business machines and data processing equipment to attain organizational or economic goals)...these behavioral tendencies lead in turn to an acquisition of clerical, computational, and business system competencies."[46] Sample majors and careers include:
+
+Actuary (with Investigative and Enterprising)[21][22]
+Archivist/Librarian (with Social and Investigative)[21]
+Biostatistics/Masters in Public Health (with Investigative)[26]
+Carpenter (with Realistic and Investigative)[21]
+Chemistry/Chemist (with Investigative and Realistic)[21]
+CFP (Certified Financial Planner)/Personal Financial Planner (with Social and Enterprising)[38]
+CPA (Certified Public Accountant) (with Investigative and Enterprising)[21][22]
+Computer engineering/Computer science/Information technology/Computer programmer (with Investigative and Realistic)[21][22]
+Customer service (with Enterprising and Social)[21]
+Educational administration (with Social and Enterprising)[21]
+Educational consultant (with Social and Enterprising)[40]
+Engineer (with Investigative and Realistic)[21][22]
+Financial analyst (with Investigative and Enterprising)[21]
+Personal Financial Planner/Certified Financial Planner (with Social and Enterprising)[38]
+Human Resources (HR) (with Enterprising and Social)[21]
+Maths teacher (with Social)[22]
+Nurse (with Realistic, Social, and Investigative)[21][22]
+Office administration (with Enterprising)[21]
+Paralegal (with Enterprising and Investigative)[21]
+Pharmacist (with Social and Investigative),[21]
+Property manager/Community association manager (with Enterprising)[45]
+Real Estate Agent (with Enterprising)[21][22]
+Statistician (with Realistic and Investigative)[21]
+Technical writer, Proofreader, Copy Editor (with Artistic and Investigative)[21][33][34]
+Trainer (business) (with Social and Artistic)[21]
+Web developer (with Artistic, Realistic, and Investigative)[21]

@@ -1,0 +1,233 @@
+[
+  {
+    "college_id": "iit_delhi",
+    "name": "Indian Institute of Technology Delhi",
+    "college_type": "government",
+    "location": "New Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "established_year": 1961,
+    "accreditation": ["NAAC A++", "NBA", "AICTE"],
+    "programs": [
+      {
+        "program_name": "Bachelor of Technology in Computer Science",
+        "stream": "engineering",
+        "duration_years": 4,
+        "fees_annual": 250000,
+        "seats_total": 120,
+        "seats_general": 60,
+        "seats_reserved": 60,
+        "eligibility_criteria": "JEE Advanced qualified, 12th with 75% marks",
+        "entrance_exam": "JEE Advanced",
+        "cutoff_percentage": 95.5
+      },
+      {
+        "program_name": "Bachelor of Technology in Electrical Engineering",
+        "stream": "engineering",
+        "duration_years": 4,
+        "fees_annual": 250000,
+        "seats_total": 100,
+        "seats_general": 50,
+        "seats_reserved": 50,
+        "eligibility_criteria": "JEE Advanced qualified, 12th with 75% marks",
+        "entrance_exam": "JEE Advanced",
+        "cutoff_percentage": 94.2
+      }
+    ],
+    "placement_stats": [
+      {
+        "year": 2023,
+        "total_students": 1200,
+        "placed_students": 1180,
+        "placement_percentage": 98.3,
+        "average_salary": 1800000,
+        "highest_salary": 4500000,
+        "top_recruiters": ["Google", "Microsoft", "Amazon", "Goldman Sachs", "McKinsey"],
+        "job_roles": ["Software Engineer", "Data Scientist", "Product Manager", "Investment Banker"]
+      }
+    ],
+    "mentor_ratings": [
+      {
+        "mentor_id": "mentor_001",
+        "mentor_name": "Dr. Rajesh Kumar",
+        "rating": 4.8,
+        "review_text": "Excellent faculty and world-class infrastructure. Strong industry connections.",
+        "review_date": "2024-01-15T10:30:00Z",
+        "verified": true,
+        "categories": ["faculty", "infrastructure", "placement"]
+      }
+    ],
+    "infrastructure": {
+      "labs": 25,
+      "library_books": 500000,
+      "hostel_capacity": 2000,
+      "sports_facilities": ["Cricket", "Football", "Basketball", "Tennis"],
+      "wifi_campus": true
+    },
+    "faculty_info": {
+      "total_faculty": 450,
+      "phd_faculty": 400,
+      "student_faculty_ratio": 12
+    },
+    "official_website": "https://www.iitd.ac.in",
+    "contact_info": {
+      "phone": "+91-11-2659-7135",
+      "email": "info@iitd.ac.in"
+    },
+    "source_links": [
+      "https://www.iitd.ac.in",
+      "https://www.nirf.ac.in/college/2023/IR-C-I-1074",
+      "https://www.ugc.ac.in"
+    ]
+  },
+  {
+    "college_id": "du_delhi",
+    "name": "University of Delhi",
+    "college_type": "government",
+    "location": "New Delhi",
+    "district": "New Delhi",
+    "state": "Delhi",
+    "established_year": 1922,
+    "accreditation": ["NAAC A++", "UGC"],
+    "programs": [
+      {
+        "program_name": "Bachelor of Science in Computer Science",
+        "stream": "science",
+        "duration_years": 3,
+        "fees_annual": 15000,
+        "seats_total": 200,
+        "seats_general": 100,
+        "seats_reserved": 100,
+        "eligibility_criteria": "12th with 90% marks in Science stream",
+        "entrance_exam": "DUET",
+        "cutoff_percentage": 92.5
+      },
+      {
+        "program_name": "Bachelor of Commerce",
+        "stream": "commerce",
+        "duration_years": 3,
+        "fees_annual": 12000,
+        "seats_total": 300,
+        "seats_general": 150,
+        "seats_reserved": 150,
+        "eligibility_criteria": "12th with 85% marks in Commerce stream",
+        "entrance_exam": "DUET",
+        "cutoff_percentage": 88.0
+      }
+    ],
+    "placement_stats": [
+      {
+        "year": 2023,
+        "total_students": 5000,
+        "placed_students": 4200,
+        "placement_percentage": 84.0,
+        "average_salary": 600000,
+        "highest_salary": 2000000,
+        "top_recruiters": ["TCS", "Infosys", "Wipro", "HDFC Bank", "ICICI Bank"],
+        "job_roles": ["Software Developer", "Business Analyst", "Banking Professional", "Consultant"]
+      }
+    ],
+    "mentor_ratings": [
+      {
+        "mentor_id": "mentor_002",
+        "mentor_name": "Prof. Sunita Sharma",
+        "rating": 4.2,
+        "review_text": "Good academic environment with diverse student body. Affordable fees.",
+        "review_date": "2024-01-20T14:15:00Z",
+        "verified": true,
+        "categories": ["academics", "diversity", "affordability"]
+      }
+    ],
+    "infrastructure": {
+      "labs": 15,
+      "library_books": 200000,
+      "hostel_capacity": 1000,
+      "sports_facilities": ["Cricket", "Football", "Basketball"],
+      "wifi_campus": true
+    },
+    "faculty_info": {
+      "total_faculty": 800,
+      "phd_faculty": 600,
+      "student_faculty_ratio": 20
+    },
+    "official_website": "https://www.du.ac.in",
+    "contact_info": {
+      "phone": "+91-11-2766-7777",
+      "email": "info@du.ac.in"
+    },
+    "source_links": [
+      "https://www.du.ac.in",
+      "https://www.nirf.ac.in/college/2023/IR-C-U-0490",
+      "https://www.ugc.ac.in"
+    ]
+  },
+  {
+    "college_id": "iisc_bangalore",
+    "name": "Indian Institute of Science Bangalore",
+    "college_type": "government",
+    "location": "Bangalore",
+    "district": "Bangalore Urban",
+    "state": "Karnataka",
+    "established_year": 1909,
+    "accreditation": ["NAAC A++", "NBA", "AICTE"],
+    "programs": [
+      {
+        "program_name": "Bachelor of Science in Research",
+        "stream": "science",
+        "duration_years": 4,
+        "fees_annual": 200000,
+        "seats_total": 80,
+        "seats_general": 40,
+        "seats_reserved": 40,
+        "eligibility_criteria": "JEE Advanced qualified, 12th with 80% marks",
+        "entrance_exam": "JEE Advanced",
+        "cutoff_percentage": 96.0
+      }
+    ],
+    "placement_stats": [
+      {
+        "year": 2023,
+        "total_students": 400,
+        "placed_students": 380,
+        "placement_percentage": 95.0,
+        "average_salary": 1200000,
+        "highest_salary": 3000000,
+        "top_recruiters": ["Intel", "Qualcomm", "Samsung", "ISRO", "DRDO"],
+        "job_roles": ["Research Scientist", "Hardware Engineer", "R&D Engineer", "Technical Consultant"]
+      }
+    ],
+    "mentor_ratings": [
+      {
+        "mentor_id": "mentor_003",
+        "mentor_name": "Dr. Priya Nair",
+        "rating": 4.9,
+        "review_text": "Premier research institution with cutting-edge facilities and world-class faculty.",
+        "review_date": "2024-01-25T09:45:00Z",
+        "verified": true,
+        "categories": ["research", "faculty", "infrastructure"]
+      }
+    ],
+    "infrastructure": {
+      "labs": 50,
+      "library_books": 800000,
+      "hostel_capacity": 800,
+      "sports_facilities": ["Cricket", "Football", "Tennis", "Swimming"],
+      "wifi_campus": true
+    },
+    "faculty_info": {
+      "total_faculty": 500,
+      "phd_faculty": 480,
+      "student_faculty_ratio": 8
+    },
+    "official_website": "https://www.iisc.ac.in",
+    "contact_info": {
+      "phone": "+91-80-2293-2000",
+      "email": "info@iisc.ac.in"
+    },
+    "source_links": [
+      "https://www.iisc.ac.in",
+      "https://www.nirf.ac.in/college/2023/IR-C-I-1076",
+      "https://www.ugc.ac.in"
+    ]
+  }
+]
