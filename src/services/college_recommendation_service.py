@@ -5,15 +5,19 @@ import json
 from typing import List, Dict, Any, Optional, Tuple
 from datetime import datetime
 
-from ..models.college import (
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from models.college import (
     StudentProfile, 
     CollegeRecommendation, 
     RecommendationRequest,
     StreamType
 )
-from .rag_pipeline import CollegeRAGPipeline, create_student_query
-from .llm_service import CollegeRecommendationLLM
-from .verification_service import CollegeVerificationService
+from services.rag_pipeline import CollegeRAGPipeline, create_student_query
+from services.llm_service import CollegeRecommendationLLM
+from services.verification_service import CollegeVerificationService
 
 
 class CollegeRecommendationService:
@@ -38,16 +42,18 @@ class CollegeRecommendationService:
     def _load_college_data(self):
         """Load and process college data"""
         try:
-            # Load college data
-            colleges = self.rag_pipeline.load_college_data("./data/colleges_sample.json")
-            
-            # Create documents
-            documents = self.rag_pipeline.create_college_documents(colleges)
-            
-            # Create vector store
-            self.rag_pipeline.create_vectorstore(documents)
-            
-            print(f"✅ Loaded {len(colleges)} colleges into vector store")
+            # Check if vector store already exists
+            import os
+            if os.path.exists(self.rag_pipeline.persist_directory) and os.listdir(self.rag_pipeline.persist_directory):
+                # Load existing vector store
+                self.rag_pipeline.load_existing_vectorstore()
+                print(f"✅ Loaded existing vector store from {self.rag_pipeline.persist_directory}")
+            else:
+                # Create new vector store
+                colleges = self.rag_pipeline.load_college_data("./data/colleges_sample.json")
+                documents = self.rag_pipeline.create_college_documents(colleges)
+                self.rag_pipeline.create_vectorstore(documents)
+                print(f"✅ Created new vector store with {len(colleges)} colleges")
             
         except Exception as e:
             print(f"❌ Error loading college data: {e}")
@@ -66,9 +72,23 @@ class CollegeRecommendationService:
         # Retrieve relevant documents
         retrieved_docs = self.rag_pipeline.search_colleges(
             query=query,
-            k=5,  # Get top 5 for LLM processing
+            k=5,  # Limit to 5 documents for better performance
             filters=filters
         )
+        
+        # Apply budget filtering in post-processing
+        if request.student_profile.budget_range:
+            min_budget, max_budget = request.student_profile.budget_range
+            budget_filtered_docs = []
+            for doc in retrieved_docs:
+                min_fees = doc.metadata.get('min_fees', 0)
+                max_fees = doc.metadata.get('max_fees', 0)
+                
+                # Check if any program is within budget
+                if min_fees <= max_budget and max_fees >= min_budget:
+                    budget_filtered_docs.append(doc)
+            
+            retrieved_docs = budget_filtered_docs[:5]  # Take top 5 after filtering
         
         # Convert documents to format expected by LLM
         formatted_docs = []
@@ -98,26 +118,9 @@ class CollegeRecommendationService:
     
     def _create_filters(self, student_profile: StudentProfile) -> Dict[str, Any]:
         """Create metadata filters based on student profile"""
-        filters = {}
-        
-        # Filter by preferred streams
-        if student_profile.preferred_streams:
-            filters["streams"] = [stream.value for stream in student_profile.preferred_streams]
-        
-        # Filter by budget range
-        if student_profile.budget_range:
-            min_budget, max_budget = student_profile.budget_range
-            # Note: This is a simplified filter - in practice, you'd need range queries
-            filters["min_fees"] = {"$lte": max_budget}
-            filters["max_fees"] = {"$gte": min_budget}
-        
-        # Filter by location (if specified)
-        if student_profile.location:
-            # This would require geocoding and distance calculation
-            # For now, we'll filter by state/district if available
-            pass
-        
-        return filters
+        # For now, don't use filters to avoid ChromaDB issues
+        # We'll do all filtering in post-processing
+        return {}
     
     def _apply_preferences(self, 
                           recommendations: List[CollegeRecommendation],

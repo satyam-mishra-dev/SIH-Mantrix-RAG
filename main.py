@@ -11,6 +11,7 @@ sys.path.append(str(Path(__file__).parent / "src"))
 from src.services.college_recommendation_service import CollegeRecommendationService
 from src.models.college import StudentProfile, StreamType, RecommendationRequest
 from src.services.evaluation_service import EvaluationService
+import config
 
 
 def main():
@@ -75,7 +76,10 @@ def run_demo():
     try:
         # Initialize the service
         print("Initializing College Recommendation Service...")
-        service = CollegeRecommendationService()
+        service = CollegeRecommendationService(
+            llm_model=config.DEFAULT_LLM_MODEL,
+            api_key=config.DEMO_API_KEY  # Force demo mode
+        )
         print("✅ Service initialized successfully")
         
         # Create a sample student profile
@@ -88,7 +92,7 @@ def run_demo():
             budget_range=(100000, 300000),
             preferred_language="English",
             max_distance_km=100,
-            location="Delhi",
+            location="Jammu, Jammu and Kashmir",
             interests=["Technology", "Programming", "Research"],
             career_goals=["Software Engineer", "Data Scientist"]
         )

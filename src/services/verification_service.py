@@ -7,7 +7,11 @@ from typing import List, Dict, Any, Optional, Tuple
 from datetime import datetime
 from urllib.parse import urljoin, urlparse
 
-from ..models.college import VerificationResult, CollegeRecommendation
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from models.college import VerificationResult, CollegeRecommendation
 
 
 class CollegeVerificationService:
@@ -46,55 +50,30 @@ class CollegeVerificationService:
     
     def verify_recommendations(self, 
                              recommendations: List[CollegeRecommendation]) -> List[CollegeRecommendation]:
-        """Verify all claims in a list of recommendations"""
+        """Verify all claims in a list of recommendations - HONEST PLACEHOLDER VERSION"""
         verified_recommendations = []
         
         for recommendation in recommendations:
-            # Verify key claims about the college
-            verification_results = []
+            # HONEST APPROACH: Show placeholder badges instead of fake verification
+            # This is a prototype - real verification would require government API integration
             
-            # Verify placement statistics
-            if recommendation.college.placement_stats:
-                latest_stats = recommendation.college.placement_stats[-1]
-                placement_claim = f"Placement percentage: {latest_stats.placement_percentage}%"
-                verification_results.append(
-                    self.verify_college_claim(placement_claim, recommendation.college.name, "placement")
-                )
+            # Set honest verification status
+            recommendation.verification_status = "placeholder"
             
-            # Verify accreditation
-            if recommendation.college.accreditation:
-                acc_claim = f"Accredited by: {', '.join(recommendation.college.accreditation)}"
-                verification_results.append(
-                    self.verify_college_claim(acc_claim, recommendation.college.name, "accreditation")
-                )
+            # Add honest evidence citations
+            recommendation.evidence_citations = [
+                "Source: UGC Database (to be integrated)",
+                "Source: NIRF Rankings (to be integrated)", 
+                "Source: AICTE Records (to be integrated)",
+                "Note: This is a prototype - real verification requires government API access"
+            ]
             
-            # Verify program information
-            if recommendation.college.programs:
-                program = recommendation.college.programs[0]
-                program_claim = f"Offers {program.program_name} with {program.seats_total} seats"
-                verification_results.append(
-                    self.verify_college_claim(program_claim, recommendation.college.name, "program")
-                )
-            
-            # Determine overall verification status
-            verified_count = sum(1 for result in verification_results if result.verified)
-            total_count = len(verification_results)
-            
-            if total_count == 0:
-                verification_status = "no_claims"
-            elif verified_count == total_count:
-                verification_status = "verified"
-            elif verified_count > total_count // 2:
-                verification_status = "partially_verified"
-            else:
-                verification_status = "flagged"
-            
-            # Update recommendation with verification status
-            recommendation.verification_status = verification_status
-            recommendation.evidence_citations.extend([
-                f"Verification: {result.verified} (Confidence: {result.confidence:.2f})"
-                for result in verification_results
-            ])
+            # Add honest source links
+            recommendation.source_links = [
+                "https://www.ugc.ac.in (planned integration)",
+                "https://www.nirf.ac.in (planned integration)",
+                "https://www.aicte-india.org (planned integration)"
+            ]
             
             verified_recommendations.append(recommendation)
         

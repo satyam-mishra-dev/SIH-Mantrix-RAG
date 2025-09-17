@@ -18,7 +18,11 @@ from langchain_core.retrievers import BaseRetriever
 from langchain_core.callbacks import CallbackManagerForRetrieverRun
 from langchain_core.documents import Document
 
-from ..models.college import College, StudentProfile, StreamType
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from models.college import College, StudentProfile, StreamType
 
 
 class CollegeRAGPipeline:
@@ -174,7 +178,22 @@ class CollegeRAGPipeline:
         # Filter complex metadata to avoid ChromaDB issues
         filtered_documents = []
         for doc in documents:
-            filtered_doc, _ = filter_complex_metadata(doc)
+            # Create a new document with filtered metadata
+            filtered_metadata = {}
+            for key, value in doc.metadata.items():
+                if isinstance(value, (str, int, float, bool)) or value is None:
+                    filtered_metadata[key] = value
+                elif isinstance(value, list):
+                    # Convert lists to strings for ChromaDB compatibility
+                    filtered_metadata[key] = ", ".join(map(str, value))
+                else:
+                    # Convert other types to strings
+                    filtered_metadata[key] = str(value)
+            
+            filtered_doc = Document(
+                page_content=doc.page_content,
+                metadata=filtered_metadata
+            )
             filtered_documents.append(filtered_doc)
         
         self.vectorstore = Chroma.from_documents(
@@ -224,13 +243,25 @@ class CollegeRAGPipeline:
             
             results = self.vectorstore.similarity_search(
                 query, 
-                k=k, 
+                k=k*3,  # Get more results for diversity
                 filter=where_clause
             )
         else:
-            results = self.vectorstore.similarity_search(query, k=k)
+            results = self.vectorstore.similarity_search(query, k=k*3)
         
-        return results
+        # Remove duplicates based on college_id
+        unique_results = []
+        seen_colleges = set()
+        
+        for doc in results:
+            college_id = doc.metadata.get('college_id', 'unknown')
+            if college_id not in seen_colleges:
+                unique_results.append(doc)
+                seen_colleges.add(college_id)
+                if len(unique_results) >= k:
+                    break
+        
+        return unique_results[:k]
 
 
 class CollegeRetriever(BaseRetriever):

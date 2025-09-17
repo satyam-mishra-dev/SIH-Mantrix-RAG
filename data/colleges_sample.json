@@ -1,233 +1,248 @@
 [
   {
-    "college_id": "iit_delhi",
-    "name": "Indian Institute of Technology Delhi",
+    "college_id": "university_of_jammu",
+    "name": "University of Jammu",
     "college_type": "government",
-    "location": "New Delhi",
-    "district": "New Delhi",
-    "state": "Delhi",
-    "established_year": 1961,
-    "accreditation": ["NAAC A++", "NBA", "AICTE"],
+    "location": "Jammu",
+    "district": "Jammu",
+    "state": "Jammu and Kashmir",
+    "established_year": 1969,
+    "accreditation": ["NAAC A", "UGC"],
     "programs": [
       {
-        "program_name": "Bachelor of Technology in Computer Science",
+        "program_name": "Bachelor of Technology in Computer Science and Engineering",
         "stream": "engineering",
         "duration_years": 4,
-        "fees_annual": 250000,
-        "seats_total": 120,
-        "seats_general": 60,
-        "seats_reserved": 60,
-        "eligibility_criteria": "JEE Advanced qualified, 12th with 75% marks",
-        "entrance_exam": "JEE Advanced",
-        "cutoff_percentage": 95.5
+        "fees_annual": 50000,
+        "seats_total": 60,
+        "seats_general": 30,
+        "seats_reserved": 30,
+        "eligibility_criteria": "12th with 50% marks in Physics, Chemistry, Mathematics",
+        "entrance_exam": "JKCET",
+        "cutoff_percentage": 60.0
       },
       {
-        "program_name": "Bachelor of Technology in Electrical Engineering",
-        "stream": "engineering",
-        "duration_years": 4,
-        "fees_annual": 250000,
-        "seats_total": 100,
-        "seats_general": 50,
-        "seats_reserved": 50,
-        "eligibility_criteria": "JEE Advanced qualified, 12th with 75% marks",
-        "entrance_exam": "JEE Advanced",
-        "cutoff_percentage": 94.2
+        "program_name": "Bachelor of Science in Physics",
+        "stream": "science",
+        "duration_years": 3,
+        "fees_annual": 30000,
+        "seats_total": 40,
+        "seats_general": 20,
+        "seats_reserved": 20,
+        "eligibility_criteria": "12th with 45% marks in Science subjects",
+        "entrance_exam": "Direct admission",
+        "cutoff_percentage": 45.0
       }
     ],
     "placement_stats": [
       {
         "year": 2023,
-        "total_students": 1200,
-        "placed_students": 1180,
-        "placement_percentage": 98.3,
-        "average_salary": 1800000,
-        "highest_salary": 4500000,
-        "top_recruiters": ["Google", "Microsoft", "Amazon", "Goldman Sachs", "McKinsey"],
-        "job_roles": ["Software Engineer", "Data Scientist", "Product Manager", "Investment Banker"]
+        "total_students": 200,
+        "placed_students": 150,
+        "placement_percentage": 75.0,
+        "average_salary": 400000,
+        "highest_salary": 800000,
+        "top_recruiters": ["J&K Bank", "State Bank of India", "HDFC Bank", "TCS", "Infosys"],
+        "job_roles": ["Software Engineer", "Banking Officer", "Government Officer", "Teacher"]
       }
     ],
     "mentor_ratings": [
       {
         "mentor_id": "mentor_001",
-        "mentor_name": "Dr. Rajesh Kumar",
-        "rating": 4.8,
-        "review_text": "Excellent faculty and world-class infrastructure. Strong industry connections.",
+        "mentor_name": "Prof. Sunita Sharma",
+        "rating": 4.0,
+        "review_text": "Good university in Jammu with decent infrastructure and local job opportunities.",
         "review_date": "2024-01-15T10:30:00Z",
         "verified": true,
-        "categories": ["faculty", "infrastructure", "placement"]
+        "categories": ["faculty", "placement", "location"]
       }
     ],
     "infrastructure": {
-      "labs": 25,
-      "library_books": 500000,
-      "hostel_capacity": 2000,
-      "sports_facilities": ["Cricket", "Football", "Basketball", "Tennis"],
+      "labs": 8,
+      "library_books": 50000,
+      "hostel_capacity": 200,
+      "sports_facilities": ["Cricket", "Football", "Basketball"],
       "wifi_campus": true
     },
     "faculty_info": {
-      "total_faculty": 450,
-      "phd_faculty": 400,
-      "student_faculty_ratio": 12
+      "total_faculty": 80,
+      "phd_faculty": 50,
+      "student_faculty_ratio": 20
     },
-    "official_website": "https://www.iitd.ac.in",
+    "official_website": "https://www.jammuuniversity.ac.in",
     "contact_info": {
-      "phone": "+91-11-2659-7135",
-      "email": "info@iitd.ac.in"
+      "phone": "+91-191-245-9041",
+      "email": "info@jammuuniversity.ac.in"
     },
     "source_links": [
-      "https://www.iitd.ac.in",
-      "https://www.nirf.ac.in/college/2023/IR-C-I-1074",
-      "https://www.ugc.ac.in"
-    ]
+      "https://www.jammuuniversity.ac.in",
+      "https://www.ugc.ac.in",
+      "https://www.nirf.ac.in"
+    ],
+    "last_updated": "2024-01-15T10:30:00Z"
   },
   {
-    "college_id": "du_delhi",
-    "name": "University of Delhi",
+    "college_id": "university_of_kashmir",
+    "name": "University of Kashmir",
     "college_type": "government",
-    "location": "New Delhi",
-    "district": "New Delhi",
-    "state": "Delhi",
-    "established_year": 1922,
-    "accreditation": ["NAAC A++", "UGC"],
+    "location": "Srinagar",
+    "district": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "established_year": 1948,
+    "accreditation": ["NAAC A", "UGC"],
     "programs": [
       {
-        "program_name": "Bachelor of Science in Computer Science",
-        "stream": "science",
-        "duration_years": 3,
-        "fees_annual": 15000,
-        "seats_total": 200,
-        "seats_general": 100,
-        "seats_reserved": 100,
-        "eligibility_criteria": "12th with 90% marks in Science stream",
-        "entrance_exam": "DUET",
-        "cutoff_percentage": 92.5
+        "program_name": "Bachelor of Technology in Information Technology",
+        "stream": "engineering",
+        "duration_years": 4,
+        "fees_annual": 45000,
+        "seats_total": 40,
+        "seats_general": 20,
+        "seats_reserved": 20,
+        "eligibility_criteria": "12th with 50% marks in Physics, Chemistry, Mathematics",
+        "entrance_exam": "JKCET",
+        "cutoff_percentage": 55.0
       },
       {
-        "program_name": "Bachelor of Commerce",
-        "stream": "commerce",
+        "program_name": "Bachelor of Science in Mathematics",
+        "stream": "science",
         "duration_years": 3,
-        "fees_annual": 12000,
-        "seats_total": 300,
-        "seats_general": 150,
-        "seats_reserved": 150,
-        "eligibility_criteria": "12th with 85% marks in Commerce stream",
-        "entrance_exam": "DUET",
-        "cutoff_percentage": 88.0
+        "fees_annual": 25000,
+        "seats_total": 30,
+        "seats_general": 15,
+        "seats_reserved": 15,
+        "eligibility_criteria": "12th with 45% marks in Mathematics",
+        "entrance_exam": "Direct admission",
+        "cutoff_percentage": 45.0
       }
     ],
     "placement_stats": [
       {
         "year": 2023,
-        "total_students": 5000,
-        "placed_students": 4200,
-        "placement_percentage": 84.0,
-        "average_salary": 600000,
-        "highest_salary": 2000000,
-        "top_recruiters": ["TCS", "Infosys", "Wipro", "HDFC Bank", "ICICI Bank"],
-        "job_roles": ["Software Developer", "Business Analyst", "Banking Professional", "Consultant"]
+        "total_students": 150,
+        "placed_students": 100,
+        "placement_percentage": 66.7,
+        "average_salary": 350000,
+        "highest_salary": 700000,
+        "top_recruiters": ["J&K Bank", "State Bank of India", "Government of J&K", "Local IT companies"],
+        "job_roles": ["Software Developer", "Banking Officer", "Government Officer", "Teacher"]
       }
     ],
     "mentor_ratings": [
       {
         "mentor_id": "mentor_002",
-        "mentor_name": "Prof. Sunita Sharma",
-        "rating": 4.2,
-        "review_text": "Good academic environment with diverse student body. Affordable fees.",
+        "mentor_name": "Dr. Ahmed Mir",
+        "rating": 3.8,
+        "review_text": "Established university in Kashmir with good academic programs and local connections.",
         "review_date": "2024-01-20T14:15:00Z",
         "verified": true,
-        "categories": ["academics", "diversity", "affordability"]
+        "categories": ["faculty", "academics", "location"]
       }
     ],
     "infrastructure": {
-      "labs": 15,
-      "library_books": 200000,
-      "hostel_capacity": 1000,
-      "sports_facilities": ["Cricket", "Football", "Basketball"],
+      "labs": 6,
+      "library_books": 40000,
+      "hostel_capacity": 150,
+      "sports_facilities": ["Cricket", "Football", "Volleyball"],
       "wifi_campus": true
     },
     "faculty_info": {
-      "total_faculty": 800,
-      "phd_faculty": 600,
-      "student_faculty_ratio": 20
+      "total_faculty": 70,
+      "phd_faculty": 45,
+      "student_faculty_ratio": 18
     },
-    "official_website": "https://www.du.ac.in",
+    "official_website": "https://www.kashmiruniversity.net",
     "contact_info": {
-      "phone": "+91-11-2766-7777",
-      "email": "info@du.ac.in"
+      "phone": "+91-194-227-2095",
+      "email": "info@kashmiruniversity.net"
     },
     "source_links": [
-      "https://www.du.ac.in",
-      "https://www.nirf.ac.in/college/2023/IR-C-U-0490",
-      "https://www.ugc.ac.in"
-    ]
+      "https://www.kashmiruniversity.net",
+      "https://www.ugc.ac.in",
+      "https://www.nirf.ac.in"
+    ],
+    "last_updated": "2024-01-20T14:15:00Z"
   },
   {
-    "college_id": "iisc_bangalore",
-    "name": "Indian Institute of Science Bangalore",
+    "college_id": "nit_srinagar",
+    "name": "National Institute of Technology Srinagar",
     "college_type": "government",
-    "location": "Bangalore",
-    "district": "Bangalore Urban",
-    "state": "Karnataka",
-    "established_year": 1909,
-    "accreditation": ["NAAC A++", "NBA", "AICTE"],
+    "location": "Srinagar",
+    "district": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "established_year": 1960,
+    "accreditation": ["NAAC A", "NBA", "AICTE"],
     "programs": [
       {
-        "program_name": "Bachelor of Science in Research",
-        "stream": "science",
+        "program_name": "Bachelor of Technology in Computer Science and Engineering",
+        "stream": "engineering",
         "duration_years": 4,
-        "fees_annual": 200000,
-        "seats_total": 80,
-        "seats_general": 40,
-        "seats_reserved": 40,
-        "eligibility_criteria": "JEE Advanced qualified, 12th with 80% marks",
-        "entrance_exam": "JEE Advanced",
-        "cutoff_percentage": 96.0
+        "fees_annual": 150000,
+        "seats_total": 60,
+        "seats_general": 30,
+        "seats_reserved": 30,
+        "eligibility_criteria": "JEE Main qualified, 12th with 75% marks",
+        "entrance_exam": "JEE Main",
+        "cutoff_percentage": 85.0
+      },
+      {
+        "program_name": "Bachelor of Technology in Electronics and Communication Engineering",
+        "stream": "engineering",
+        "duration_years": 4,
+        "fees_annual": 150000,
+        "seats_total": 60,
+        "seats_general": 30,
+        "seats_reserved": 30,
+        "eligibility_criteria": "JEE Main qualified, 12th with 75% marks",
+        "entrance_exam": "JEE Main",
+        "cutoff_percentage": 82.0
       }
     ],
     "placement_stats": [
       {
         "year": 2023,
-        "total_students": 400,
-        "placed_students": 380,
-        "placement_percentage": 95.0,
-        "average_salary": 1200000,
-        "highest_salary": 3000000,
-        "top_recruiters": ["Intel", "Qualcomm", "Samsung", "ISRO", "DRDO"],
-        "job_roles": ["Research Scientist", "Hardware Engineer", "R&D Engineer", "Technical Consultant"]
+        "total_students": 300,
+        "placed_students": 270,
+        "placement_percentage": 90.0,
+        "average_salary": 800000,
+        "highest_salary": 2000000,
+        "top_recruiters": ["TCS", "Infosys", "Wipro", "HCL", "Cognizant"],
+        "job_roles": ["Software Engineer", "System Analyst", "Network Engineer", "Database Administrator"]
       }
     ],
     "mentor_ratings": [
       {
         "mentor_id": "mentor_003",
-        "mentor_name": "Dr. Priya Nair",
-        "rating": 4.9,
-        "review_text": "Premier research institution with cutting-edge facilities and world-class faculty.",
-        "review_date": "2024-01-25T09:45:00Z",
+        "mentor_name": "Dr. Ahmed Khan",
+        "rating": 4.2,
+        "review_text": "Good engineering college in Kashmir with decent infrastructure and faculty.",
+        "review_date": "2024-01-30T11:20:00Z",
         "verified": true,
-        "categories": ["research", "faculty", "infrastructure"]
+        "categories": ["faculty", "infrastructure", "placement"]
       }
     ],
     "infrastructure": {
-      "labs": 50,
-      "library_books": 800000,
-      "hostel_capacity": 800,
-      "sports_facilities": ["Cricket", "Football", "Tennis", "Swimming"],
+      "labs": 15,
+      "library_books": 100000,
+      "hostel_capacity": 400,
+      "sports_facilities": ["Cricket", "Football", "Basketball", "Volleyball"],
       "wifi_campus": true
     },
     "faculty_info": {
-      "total_faculty": 500,
-      "phd_faculty": 480,
-      "student_faculty_ratio": 8
+      "total_faculty": 120,
+      "phd_faculty": 80,
+      "student_faculty_ratio": 15
     },
-    "official_website": "https://www.iisc.ac.in",
+    "official_website": "https://www.nitsri.ac.in",
     "contact_info": {
-      "phone": "+91-80-2293-2000",
-      "email": "info@iisc.ac.in"
+      "phone": "+91-194-242-0000",
+      "email": "info@nitsri.ac.in"
     },
     "source_links": [
-      "https://www.iisc.ac.in",
-      "https://www.nirf.ac.in/college/2023/IR-C-I-1076",
+      "https://www.nitsri.ac.in",
+      "https://www.nirf.ac.in/college/2023/IR-C-I-1078",
       "https://www.ugc.ac.in"
-    ]
+    ],
+    "last_updated": "2024-01-30T11:20:00Z"
   }
 ]

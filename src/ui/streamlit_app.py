@@ -8,8 +8,13 @@ import plotly.graph_objects as go
 from typing import List, Dict, Any
 import pandas as pd
 
-from ..models.college import StudentProfile, StreamType, RecommendationRequest
-from ..services.college_recommendation_service import CollegeRecommendationService
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from models.college import StudentProfile, StreamType, RecommendationRequest
+from services.college_recommendation_service import CollegeRecommendationService
+import config
 
 
 def main():
@@ -69,6 +74,12 @@ def main():
     # Header
     st.markdown('<h1 class="main-header">🎓 College Recommendation System</h1>', unsafe_allow_html=True)
     st.markdown("### AI-Powered Government College Recommendations with Verification")
+    
+    # Prototype Notice
+    st.info("""
+    **🔬 PROTOTYPE NOTICE**: This is a demonstration prototype focusing on college recommendations for Jammu & Kashmir students. 
+    Future versions will include psychometric assessments, career pathways, and government API integration.
+    """)
     
     # Initialize session state
     if 'recommendations' not in st.session_state:
@@ -173,7 +184,10 @@ def main():
                     
                     # Initialize service if not already done
                     if st.session_state.service is None:
-                        st.session_state.service = CollegeRecommendationService()
+                        st.session_state.service = CollegeRecommendationService(
+                            llm_model=config.DEFAULT_LLM_MODEL,
+                            api_key=config.DEMO_API_KEY  # Force demo mode
+                        )
                     
                     # Get recommendations
                     recommendations = st.session_state.service.get_recommendations(request)
