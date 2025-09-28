@@ -186,7 +186,7 @@ def main():
                     if st.session_state.service is None:
                         st.session_state.service = CollegeRecommendationService(
                             llm_model=config.DEFAULT_LLM_MODEL,
-                            api_key=config.DEMO_API_KEY  # Force demo mode
+                            api_key=config.OPENAI_API_KEY  # Use real API key from environment
                         )
                     
                     # Get recommendations

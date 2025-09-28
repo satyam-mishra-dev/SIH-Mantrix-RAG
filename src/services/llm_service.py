@@ -44,7 +44,7 @@ class CollegeRecommendationLLM:
         """Initialize the language model"""
         print(f"🔧 Initializing LLM with API key: {api_key}")
         # For demo mode, use a mock LLM that returns structured responses
-        if api_key == "sk-or-v1-demo-key-replace-with-real-key" or not api_key or api_key is None:
+        if not api_key or api_key is None or api_key == "sk-or-v1-demo-key-replace-with-real-key":
             print("🔧 Using MockLLM for demo mode")
             return MockLLM()
         
@@ -95,7 +95,8 @@ class CollegeRecommendationLLM:
         4. Do NOT assume entrance exam scores (JEE, NEET, etc.) unless explicitly provided in retrieved data
         5. Use ONLY the eligibility criteria mentioned in the retrieved data - do not add requirements
         6. If no colleges match the student's criteria, say so clearly
-        7. For each college from the retrieved data, provide:
+        7. You MUST return EXACTLY 3 recommendations in ranked order (rank 1, 2, 3)
+        8. For each college from the retrieved data, provide:
            - Rank (1-3)
            - Use the actual college name from the retrieved data
            - Score breakdown based on the retrieved information:
@@ -108,7 +109,7 @@ class CollegeRecommendationLLM:
            - Evidence citations from the retrieved data
 
         OUTPUT FORMAT (Simple JSON):
-        Return a JSON array with this exact structure:
+        Return a JSON array with EXACTLY 3 recommendations in this exact structure:
         [
           {{
             "rank": 1,

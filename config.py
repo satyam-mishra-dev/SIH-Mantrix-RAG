@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API Configuration
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "sk-or-v1-demo-key-replace-with-real-key")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DEFAULT_LLM_MODEL = os.getenv("DEFAULT_LLM_MODEL", "gpt-3.5-turbo")
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
 
@@ -22,4 +22,4 @@ VECTOR_DB_PATH = "./data/chroma_db"
 
 # Demo Configuration
 DEMO_API_KEY = "sk-or-v1-demo-key-replace-with-real-key"
-DEMO_MODE = True  # Set to True for demo without real API calls
+DEMO_MODE = False  # Set to False to use real API calls
